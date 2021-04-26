@@ -1,6 +1,6 @@
 
-
-
+a = int(input( "type a number ranging from 0-99: "))
+b = int(input( "type a number ranging from 0-99: "))
 def even_number(x,y):
     items = []
     for i in range(x,y):
@@ -9,7 +9,7 @@ def even_number(x,y):
             items.append(s)
     return items
 
-print(even_number(10,30))
+print(even_number(a,b))
 
 
     
