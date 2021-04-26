@@ -9,4 +9,4 @@ def final_grade(homework, assessment, exam):
     c= (exam/100)*100
     return((a *0.25)+ (b*0.5) + c) /1.75
    
-print( input_name + "'s final grade is :  " + str(final_grade(input_homework, input_homework, input_exam)))
+print( input_name + "'s final grade is :  " + str(final_grade(input_homework, input_homework, input_examp)))
