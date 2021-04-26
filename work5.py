@@ -7,3 +7,17 @@ print(l)
 
 rl= [x for x in my_list if not x%2]
 print(rl)
+
+
+z= True 
+while z == True:
+    a = int(input("Enter mark: "))
+    if a > 85:
+         print('distinction')
+    elif 65 <= a <= 85:
+        print('pass')
+    elif a == 0:
+        z=False
+        print("finished")
+    else:
+        print('Fail')
