@@ -13,5 +13,5 @@ def even_number(x,y):
                 break
         else:
             items.append(string)
-    return items
+    return ','.join(items)
 print(even_number(a,b))
